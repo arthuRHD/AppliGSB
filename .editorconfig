@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0169: Le champ 'MenuForm.toolStripContainer1' n'est jamais utilisé
+dotnet_diagnostic.CS0169.severity = none
