@@ -2,6 +2,8 @@
 
 > Arthur RICHARD 2TSIO
 
+## [Install & Config](./install.md)
+
 ## Architecture logicielle
 
 - Formulaire windows (C# .NET Framework)
