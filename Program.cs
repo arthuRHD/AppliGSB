@@ -16,7 +16,7 @@ namespace GSB_visites
         {
             string dbtype = "mysql";
             //string chaineConnexion = "Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Pooling=False;Encrypt=False;";
-            string chaineConnexion = "Server=localhost;Database=bdd_gsb_csharp;Uid=root;Pwd=;SslMode=none;";
+            string chaineConnexion = "Server=richardinfo.fr;Database=db_appligsb;Uid=userGsb;Pwd=secret;SslMode=none;";
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new HomeForm(chaineConnexion, dbtype));
